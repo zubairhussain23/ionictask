@@ -1,0 +1,7 @@
+{
+  "name": "zubi",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

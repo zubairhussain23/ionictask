@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Registration
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item>
+      <ion-label fixed>Name</ion-label>
+      <ion-input type="text" value="" [(ngModel)]="name"></ion-input>
+    </ion-item>
+    
+          <ion-item>
+              <ion-label fixed>Password</ion-label>
+              <ion-input type="password" value="" [(ngModel)]="password"></ion-input>
+            </ion-item>
+                  
+    <button ion-button color="light" round (click)="register()">Register</button>
+    <button ion-button color="light" round (click)="sign()">sign</button>
+  </ion-content>
+  
